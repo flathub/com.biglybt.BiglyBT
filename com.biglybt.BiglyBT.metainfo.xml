@@ -54,32 +54,30 @@
     <release version="3.0.0.0" date="2022-02-22">
       <url type="details">https://biglybt.tumblr.com/post/677148491687002112/3000-released</url>
       <description>
-        <p>Features
-            <ul>
-              <li>Added “swarm tags” column to Library view</li>
-              <li>Changed “swarm tags” into real tags</li>
-              <li>Added “isIPFiltered()” Tag constraint function</li>
-              <li>Subscription results now support Tags</li>
-              <li>New ‘max seeding torrents’ Tag option</li>
-              <li>Added ability to unban IPs in blocked/banned IPs window</li>
-              <li>Support for per-download completion masking</li>
-              <li>Make force-terminate on close period configurable</li>
-              <li>Added an “effective incoming” state for plugin connections</li>
-              <li>Added IP Filter control to SimpleAPI plugin</li>
-              <li>Added new “local interface” peer view item</li>
-              <li>Added menu item to copy option name to clipboard</li>
-              <li>Added cell-specific menu support</li>
-              <li>Added timezone offset to public chat messages</li>
-              <li>Added chat member properties view</li>
-              <li>New “select all” context menu item for table views</li>
-              <li>Added library view item for upload priority</li>
-              <li>Added header to Subscription Results view supporting search</li>
-              <li>New “toolbar options” right-click menu</li>
-              <li>New “sidebar options” right-click menu links</li>
-              <li>Remember expansion state of File View tree</li>
-              <li>Remember row selection state in Files View across rebuilds</li>
-            </ul>
-        </p>
+        <ul>
+          <li>Added “swarm tags” column to Library view</li>
+          <li>Changed “swarm tags” into real tags</li>
+          <li>Added “isIPFiltered()” Tag constraint function</li>
+          <li>Subscription results now support Tags</li>
+          <li>New ‘max seeding torrents’ Tag option</li>
+          <li>Added ability to unban IPs in blocked/banned IPs window</li>
+          <li>Support for per-download completion masking</li>
+          <li>Make force-terminate on close period configurable</li>
+          <li>Added an “effective incoming” state for plugin connections</li>
+          <li>Added IP Filter control to SimpleAPI plugin</li>
+          <li>Added new “local interface” peer view item</li>
+          <li>Added menu item to copy option name to clipboard</li>
+          <li>Added cell-specific menu support</li>
+          <li>Added timezone offset to public chat messages</li>
+          <li>Added chat member properties view</li>
+          <li>New “select all” context menu item for table views</li>
+          <li>Added library view item for upload priority</li>
+          <li>Added header to Subscription Results view supporting search</li>
+          <li>New “toolbar options” right-click menu</li>
+          <li>New “sidebar options” right-click menu links</li>
+          <li>Remember expansion state of File View tree</li>
+          <li>Remember row selection state in Files View across rebuilds</li>
+        </ul>
       </description>
     </release>
   </releases>
