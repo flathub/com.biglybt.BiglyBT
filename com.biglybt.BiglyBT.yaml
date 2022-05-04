@@ -27,8 +27,8 @@ modules:
       - mv biglybt /app/biglybt
       - install -dm755 /app/bin
       - install -m755 biglybt-runner /app/bin/biglybt-runner
-      - install -dm755 ~/.biglybt/custom
-      - install -m755 custom-presets.config ~/.biglybt/custom/custom-presets.config
+      - install -dm755 /app/biglybt/custom
+      - install -m755 custom-presets.config /app/biglybt/custom/custom-presets.config
       - install -Dm644 /app/biglybt/biglybt.desktop /app/share/applications/com.biglybt.BiglyBT.desktop
       - install -Dm644 /app/biglybt/biglybt.svg /app/share/icons/hicolor/scalable/apps/com.biglybt.BiglyBT.svg
       - install -Dm644 com.biglybt.BiglyBT.metainfo.xml /app/share/metainfo/com.biglybt.BiglyBT.metainfo.xml
