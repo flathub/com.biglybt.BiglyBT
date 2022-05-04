@@ -26,10 +26,12 @@ modules:
     build-commands:
       - mv biglybt /app/biglybt
       - install -dm755 /app/bin
+      - install -m755 biglybt-runner /app/bin/biglybt-runner
+      - install -dm755 ~/.biglybt/custom
+      - install -m755 custom-presets.config ~/.biglybt/custom/custom-presets.config
       - install -Dm644 /app/biglybt/biglybt.desktop /app/share/applications/com.biglybt.BiglyBT.desktop
       - install -Dm644 /app/biglybt/biglybt.svg /app/share/icons/hicolor/scalable/apps/com.biglybt.BiglyBT.svg
       - install -Dm644 com.biglybt.BiglyBT.metainfo.xml /app/share/metainfo/com.biglybt.BiglyBT.metainfo.xml
-      - install -m755 biglybt-runner /app/bin/biglybt-runner
       - desktop-file-edit --set-icon=com.biglybt.BiglyBT /app/share/applications/com.biglybt.BiglyBT.desktop
       - desktop-file-edit --remove-key=Exec /app/share/applications/com.biglybt.BiglyBT.desktop
       - desktop-file-edit --set-key=Exec --set-value='biglybt-runner' /app/share/applications/com.biglybt.BiglyBT.desktop
@@ -48,6 +50,8 @@ modules:
           url-query: .assets[] | select(.name=="Github_BiglyBT_unix.tar.gz") | .browser_download_url
       - type: file
         path: com.biglybt.BiglyBT.metainfo.xml
+      - type: file
+        path: custom-presets.config
       - type: script
         dest-filename: biglybt-runner
         commands:
