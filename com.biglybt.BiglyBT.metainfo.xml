@@ -51,6 +51,7 @@
   <url type="homepage">https://www.biglybt.com</url>
   <update_contact>info@biglybt.com</update_contact>
   <releases>
+    <release version="v3.1.0.0" date="2022-07-07"/>
     <release version="3.0.0.0" date="2022-02-22">
       <url type="details">https://biglybt.tumblr.com/post/677148491687002112/3000-released</url>
       <description>
@@ -81,7 +82,7 @@
       </description>
     </release>
   </releases>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <developer_name>Bigly Software</developer_name>
   <url type="bugtracker">https://github.com/BiglySoftware/BiglyBT/issues</url>
   <url type="donation">https://www.biglybt.com/donation/donate.php</url>
