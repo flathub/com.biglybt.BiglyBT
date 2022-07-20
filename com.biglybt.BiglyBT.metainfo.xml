@@ -51,7 +51,49 @@
   <url type="homepage">https://www.biglybt.com</url>
   <update_contact>info@biglybt.com</update_contact>
   <releases>
-    <release version="v3.1.0.0" date="2022-07-07"/>
+    <release version="3.1.0.0" date="2022-07-05">
+      <url type="details">https://biglybt.tumblr.com/post/689032792822185984/31-released</url>
+        <description>
+          <ul>
+            <li>Added “countTrackers()” Tag constraint function</li>
+              <li>Tag button alignment options</li>
+              <li>Added option to hide swarm tags in tags overview</li>
+              <li>Add right-click Tags Overview header menu to get to Tag options</li>
+              <li>Added “select tag” button to auto-tagging/import folder config settings</li>
+              <li>Added a “relocate” mode to “search for existing data files”</li>
+              <li>Option to only enforce one-operation-per-file-system for write operations</li>
+              <li>Option to ensure re-check on complete occurs before potential move</li>
+              <li>Option to mark subscription results found in BiglyBT as read</li>
+              <li>Added support for subscription filter inheritance</li>
+              <li>Added option to add download specific sub-directory to move-on-complete folder</li>
+              <li>Added a “launch content” library option to launch largest playable file</li>
+              <li>New “Subscription Templates” to allow common filters to be inherited</li>
+              <li>Option to mark a subscription result as read in all subscriptions</li>
+              <li>Option to delay file checks for incomplete downloads to improve startup times</li>
+              <li>Support for creating subscriptions for file-size based RCM lookups</li>
+              <li>Shift+C on sidebar entry to mark all read in subscription</li>
+              <li>Added menu item to show details of file links for selected downloads</li>
+              <li>Added optional library header; Library options menu link</li>
+              <li>Show file auto-priority settings in open-torrent-options dialog</li>
+              <li>Added backward+forward library navigation toolbar items</li>
+              <li>Added menu option to mark multiple subscription results read/unread</li>
+              <li>Added “public” and “update interval” columns to Subscriptions view</li>
+              <li>Handle some confusable Unicode chars in various table filters</li>
+              <li>Add legend to swarm view</li>
+              <li>Added menu option to create subs template when none defined</li>
+              <li>Added a right-bar view</li>
+              <li>New “Piece Blocks” view</li>
+              <li>Added a “Done (bytes)” library column</li>
+              <li>Add option to only show category buttons in library complete section</li>
+              <li>Right-click header option on Progress column to disable 3D look</li>
+              <li>Added option to disable gradient fill for table/sidebar selection</li>
+              <li>Added private-torrent column to Library</li>
+              <li>Option to disable table header gradient fill</li>
+              <li>Order column header menu option to set from current sort</li>
+              <li>New Peers view column to show percentage we have that peer wants</li>
+          </ul>
+        </description>
+    </release>
     <release version="3.0.0.0" date="2022-02-22">
       <url type="details">https://biglybt.tumblr.com/post/677148491687002112/3000-released</url>
       <description>
