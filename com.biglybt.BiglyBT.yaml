@@ -30,7 +30,7 @@ modules:
       - install -dm755 /app/biglybt/custom
       - install -m755 custom-presets.config /app/biglybt/custom/custom-presets.config
       - install -Dm644 /app/biglybt/biglybt.desktop /app/share/applications/com.biglybt.BiglyBT.desktop
-      - install -Dm644 /app/biglybt/biglybt-lightgray.svg /app/share/icons/hicolor/scalable/apps/com.biglybt.BiglyBT.svg
+      - install -Dm644 /app/biglybt/biglybt.svg /app/share/icons/hicolor/scalable/apps/com.biglybt.BiglyBT.svg
       - install -Dm644 com.biglybt.BiglyBT.metainfo.xml /app/share/metainfo/com.biglybt.BiglyBT.metainfo.xml
       - desktop-file-edit --set-icon=com.biglybt.BiglyBT /app/share/applications/com.biglybt.BiglyBT.desktop
       - desktop-file-edit --remove-key=Exec /app/share/applications/com.biglybt.BiglyBT.desktop
