@@ -40,7 +40,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.2.0.0/GitHub_BiglyBT_unix.tar.gz
-        sha256: fd62ef57c5a85e98848ab494d51b5a079ae73b7df76a62f39bbab0cd0edbf2bd
+        sha256: b0d3485c82566fcf5f40b68a72627d2f975d0a130f5bac4dd5df3e2b20b1f759
         dest: biglybt
         x-checker-data:
           type: json
