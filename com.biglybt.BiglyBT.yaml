@@ -39,7 +39,7 @@ modules:
       no-debuginfo: true
     sources:
       - type: archive
-        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.1.0.0/Github_BiglyBT_unix.tar.gz
+        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.2.0.0/GitHub_BiglyBT_unix.tar.gz
         sha256: fd62ef57c5a85e98848ab494d51b5a079ae73b7df76a62f39bbab0cd0edbf2bd
         dest: biglybt
         x-checker-data:
@@ -47,7 +47,7 @@ modules:
           url: https://api.github.com/repos/BiglySoftware/BiglyBT/releases/latest
           version-query: .tag_name
           timestamp-query: .published_at
-          url-query: .assets[] | select(.name=="Github_BiglyBT_unix.tar.gz") | .browser_download_url
+          url-query: .assets[] | select(.name=="GitHub_BiglyBT_unix.tar.gz") | .browser_download_url
       - type: file
         path: com.biglybt.BiglyBT.metainfo.xml
       - type: file
