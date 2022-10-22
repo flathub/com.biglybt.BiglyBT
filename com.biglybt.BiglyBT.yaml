@@ -1,6 +1,6 @@
 app-id: com.biglybt.BiglyBT
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '43'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk11
@@ -39,15 +39,15 @@ modules:
       no-debuginfo: true
     sources:
       - type: archive
-        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.1.0.0/Github_BiglyBT_unix.tar.gz
-        sha256: fd62ef57c5a85e98848ab494d51b5a079ae73b7df76a62f39bbab0cd0edbf2bd
+        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.2.0.0/GitHub_BiglyBT_unix.tar.gz
+        sha256: b0d3485c82566fcf5f40b68a72627d2f975d0a130f5bac4dd5df3e2b20b1f759
         dest: biglybt
         x-checker-data:
           type: json
           url: https://api.github.com/repos/BiglySoftware/BiglyBT/releases/latest
           version-query: .tag_name
           timestamp-query: .published_at
-          url-query: .assets[] | select(.name=="Github_BiglyBT_unix.tar.gz") | .browser_download_url
+          url-query: .assets[] | select(.name=="GitHub_BiglyBT_unix.tar.gz") | .browser_download_url
       - type: file
         path: com.biglybt.BiglyBT.metainfo.xml
       - type: file
