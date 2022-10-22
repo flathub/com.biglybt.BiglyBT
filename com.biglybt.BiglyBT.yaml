@@ -3,7 +3,7 @@ runtime: org.gnome.Platform
 runtime-version: '43'
 sdk: org.gnome.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk17
 command: biglybt-runner
 separate-locales: false
 finish-args:
