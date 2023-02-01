@@ -59,6 +59,7 @@
   </screenshots>
 
   <releases>
+  <release version="v3.3.0.0" date="2023-02-01"/>
   <release version="3.2.0.0" date="2022-10-13">
     <url type="details">https://biglybt.tumblr.com/post/697987029846343680/32-release</url>
     <description>
@@ -92,7 +93,7 @@
         <li>Added “File Priorities” Library column</li>
         <li>Add support for plugins to add subscription results menu items</li>
         <li>Added filter to all-peers view with column filter support</li>
-        <li>Added “show threads” to Help->Advanced menu</li>
+        <li>Added “show threads” to Help-&gt;Advanced menu</li>
         <li>Basic “counters” view</li>
       </ul>
     </description>
