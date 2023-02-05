@@ -59,7 +59,44 @@
   </screenshots>
 
   <releases>
-  <release version="v3.3.0.0" date="2023-02-01"/>
+  <release version="3.3.0.0" date="2023-02-01">
+    <url type="details">https://biglybt.tumblr.com/post/708039954192891904/33-release</url>
+    <description>
+      <ul>
+        <li>Add ability to remove auto-tag config rows</li>
+        <li>Added “isMoving()” Tag Constraint</li>
+        <li>Added option to prioritize downloads by amount remaining</li>
+        <li>Added ability to reschedule disk ops from a paused state</li>
+        <li>Use HTTP plugin proxies for RSS/search</li>
+        <li>Added option to run hybrid torrents as v2 rather than v1</li>
+        <li>Added All Trackers option to explicitly enable/disable scraping</li>
+        <li>Add Download History to metasearch providers</li>
+        <li>Support I2P proxies in the same way as Tor</li>
+        <li>Allow parameters to be supplied to manual browser command</li>
+        <li>Added “play sound” to simple api plugin</li>
+        <li>Add JVM Info log view containing cpu+mem usage</li>
+        <li>Support column filters in files view; support :>, :>= etc. for numerics</li>
+        <li>Add option to force dark theme on Linux for some components</li>
+        <li>Added “search for save location” option to torrent-options dialog</li>
+        <li>Added an option to save the torrent file from the torrent-options dialog</li>
+        <li>Added slow-ui log</li>
+        <li>Added cog options to torrent dialog</li>
+        <li>Added summary entry to search for location results</li>
+        <li>Persist open-torrent-options dialogs across restarts</li>
+        <li>Added “save torrent” to “more” menu in torrent options</li>
+        <li>Added option to limit active blocks shown in Blocks views</li>
+        <li>Added protocol values for subscription templates/search templates</li>
+        <li>Double-click dashboard view item title -> pop out</li>
+        <li>Added column value based filtering to subscriptions view</li>
+        <li>Recover pop-out windows on restart</li>
+        <li>Allow searching by renamed columns in setup window</li>
+        <li>Dark Theme option for Windows, Java 11+ recommended</li>
+        <li>Show drag position of top/right bar “sash”</li>
+        <li>Give the option to abandon the creation of a personal share</li>
+        <li>Added upload/download history view</li>
+      </ul>
+    </description>
+  </release>
   <release version="3.2.0.0" date="2022-10-13">
     <url type="details">https://biglybt.tumblr.com/post/697987029846343680/32-release</url>
     <description>
