@@ -59,6 +59,7 @@
   </screenshots>
 
   <releases>
+  <release version="v3.4.0.0" date="2023-05-17"/>
   <release version="3.3.0.0" date="2023-02-01">
     <url type="details">https://biglybt.tumblr.com/post/708039954192891904/33-release</url>
     <description>
@@ -75,7 +76,7 @@
         <li>Allow parameters to be supplied to manual browser command</li>
         <li>Added “play sound” to simple api plugin</li>
         <li>Add JVM Info log view containing cpu+mem usage</li>
-        <li>Support column filters in files view; support :>, :>= etc. for numerics</li>
+        <li>Support column filters in files view; support :&gt;, :&gt;= etc. for numerics</li>
         <li>Add option to force dark theme on Linux for some components</li>
         <li>Added “search for save location” option to torrent-options dialog</li>
         <li>Added an option to save the torrent file from the torrent-options dialog</li>
@@ -86,7 +87,7 @@
         <li>Added “save torrent” to “more” menu in torrent options</li>
         <li>Added option to limit active blocks shown in Blocks views</li>
         <li>Added protocol values for subscription templates/search templates</li>
-        <li>Double-click dashboard view item title -> pop out</li>
+        <li>Double-click dashboard view item title -&gt; pop out</li>
         <li>Added column value based filtering to subscriptions view</li>
         <li>Recover pop-out windows on restart</li>
         <li>Allow searching by renamed columns in setup window</li>
