@@ -1,9 +1,9 @@
 app-id: com.biglybt.BiglyBT
-runtime: org.gnome.Platform
-runtime-version: '44'
-sdk: org.gnome.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: '22.08'
+sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk
+  - org.freedesktop.Sdk.Extension.openjdk11
 command: biglybt-runner
 separate-locales: false
 finish-args:
@@ -20,7 +20,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk/install.sh
+      - /usr/lib/sdk/openjdk11/install.sh
   - name: biglybt
     buildsystem: simple
     build-commands:
