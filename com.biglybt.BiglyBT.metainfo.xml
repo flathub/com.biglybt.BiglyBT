@@ -59,7 +59,7 @@
   </screenshots>
 
   <releases>
-  <release version="3.4.0.0" date="2023-05-17"/>
+  <release version="3.4.0.0" date="2023-05-17">
     <url type="details">https://www.tumblr.com/biglybt/717647915720605696/34-release</url>
     <description>
       <ul>
@@ -100,6 +100,7 @@
         <li>Added option to specify which side-bar tab is shown on startup</li>
       </ul>
     </description>
+  </release>
   <release version="3.3.0.0" date="2023-02-01">
     <url type="details">https://biglybt.tumblr.com/post/708039954192891904/33-release</url>
     <description>
@@ -249,5 +250,4 @@
       </description>
     </release>
   </releases>
-
 </component>
