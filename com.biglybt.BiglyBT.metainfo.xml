@@ -59,7 +59,48 @@
   </screenshots>
 
   <releases>
-  <release version="v3.5.0.0" date="2023-11-11"/>
+  <release version="3.5.0.0" date="2023-11-11">
+    <url type="details">https://www.tumblr.com/biglybt/717647915720605696/35-release</url>
+    <description>
+      <ul>
+        <li>Added option to apply tag sort to library positions manually + auto</li>
+        <li>Added setTagSort Tag Constraint function and Library column</li>
+        <li>Add "full_copy_seen" Tag constraint keyword</li>
+        <li>Added support for reverse setTagSort</li>
+        <li>Added "timeToElapsed" Tag constraint function</li>
+        <li>Added +,-,/,* Tag constraint operations; Added toMiB and toGiB</li>
+        <li>Added "remaining" and toMB/toGB Tag Constraint variables/functions</li>
+        <li>Added getTagWeight constraint function to get download's weight</li>
+        <li>Added Tag weight parameter</li>
+        <li>Add "random" option to setTagSort</li>
+        <li>Added session_age constraint variable</li>
+        <li>Added Tag constraint keywords up_speed and down_speed</li>
+        <li>Added ifThenElse Tag constraint function</li>
+        <li>Added Tag a?b:c operator, rem, min and max functions</li>
+        <li>Add Tag constraint variable "my_rating" to get personal rating value</li>
+        <li>Added speed limit handler option to not pause force-start downloads</li>
+        <li>Added minimum storage controls to speed limit scheduler</li>
+        <li>Added remote-port option to proxy factory</li>
+        <li>Support explicit ports in web plugin white-lists</li>
+        <li>Extended alternative-contacts to include Tor</li>
+        <li>Extend PEX support</li>
+        <li>Added a logger view for the torrent importer</li>
+        <li>Added isExternal to plugin interface tracker torrent</li>
+        <li>Tor Proxy DHT prototype</li>
+        <li>Added peers count to all-trackers view (session only)</li>
+        <li>Add incomplete/complete text to rank item tool tip where relevant</li>
+        <li>Separate progress bar colour for light seeding</li>
+        <li>Added max-seeds and min-peers to subscription filters</li>
+        <li>Menu option to remove all routers</li>
+        <li>Added is-external column to my tracker</li>
+        <li>Ctrl+f selects filter box in chat view</li>
+        <li>Added log messages and save messages chat overview columns</li>
+        <li>Added "active requests" to All Trackers view</li>
+        <li>Added dl history add/complete/remove columns to Subscriptions</li>
+        <li>Added option to specify which side-bar tab is shown on startup</li>
+      </ul>
+    </description>
+  </release>
   <release version="3.4.0.0" date="2023-05-17">
     <url type="details">https://www.tumblr.com/biglybt/717647915720605696/34-release</url>
     <description>
