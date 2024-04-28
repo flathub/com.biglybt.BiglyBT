@@ -12,6 +12,7 @@
   </description>
 
   <url type="homepage">https://www.biglybt.com</url>
+  <launchable type="desktop-id">com.biglybt.BiglyBT.desktop</launchable>
   <update_contact>info@biglybt.com</update_contact>
   <content_rating type="oars-1.1"/>
   <developer_name>Bigly Software</developer_name>
@@ -59,7 +60,46 @@
   </screenshots>
 
   <releases>
-  <release version="v3.6.0.0" date="2024-04-24"/>
+    <release version="v3.6.0.0" date="2024-04-24">
+      <url type="details">https://www.tumblr.com/biglybt/748664546957426688/36-release</url>
+      <description>
+        <ul>
+          <li>Added tag constraint variable "file_count_selected" and "count" function</li>
+          <li>Added "trackers" variable to Tag Constraints</li>
+          <li>Added Tag Overview "tag sort auto" column</li>
+          <li>Added "trackerPeers" and "trackerSeeds" Tag constraint functions</li>
+          <li>Added tag constraint function "pluginOption"</li>
+          <li>Allow comments in tag constraints</li>
+          <li>Support empty constraint expression</li>
+          <li>Added method to add torrents to SimpleAPI plugin</li>
+          <li>Added progress indicators for SimpleAPI torrent download</li>
+          <li>Added SimpleAPI plugin method to set download plugin options</li>
+          <li>Added option to automatically create a sub-folder for simple torrents</li>
+          <li>Option to set files to high priority when pieces remaining</li>
+          <li>Added global setting for file priority pieces remaining</li>
+          <li>Add "completed" to generated feed</li>
+          <li>Make banning of HTTP seeds download specific</li>
+          <li>Added "test mode" to "search for existing data files"</li>
+          <li>Added an "Archive" toolbar item</li>
+          <li>Support tag/category filter matching in subscription results</li>
+          <li>Added country chat sub-tab in Peer views</li>
+          <li>Added option to remember response to "add separate download" prompt</li>
+          <li>CTRL+a -> select all in progress report window</li>
+          <li>Added "Close View" file menu item in sidebar view</li>
+          <li>Support additional launch helper for "show file" operation</li>
+          <li>Added option to control side bar double-click pop-out type</li>
+          <li>Added option to disable UI updates when minimised</li>
+          <li>Added blocked icons for up/down speed when disabled</li>
+          <li>Separate seeds/peers columns for subs/search results</li>
+          <li>Option to reset all table views</li>
+          <li>Added option to set table column defaults for new views</li>
+          <li>Added "grabbed" column to subscription results</li>
+          <li>Show entry limit in title</li>
+          <li>Add "select all" to column header menu</li>
+          <li>Show byte size in tooltip</li>
+        </ul>
+      </description>
+    </release>
   <release version="3.5.0.0" date="2023-11-11">
     <url type="details">https://www.tumblr.com/biglybt/717647915720605696/35-release</url>
     <description>
