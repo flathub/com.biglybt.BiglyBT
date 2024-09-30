@@ -60,6 +60,9 @@
   </screenshots>
 
   <releases>
+    <release version="v3.7.0.0" date="2024-09-30">
+      <description></description>
+    </release>
     <release version="v3.6.0.0" date="2024-04-24">
       <url type="details">https://www.tumblr.com/biglybt/748664546957426688/36-release</url>
       <description>
@@ -84,7 +87,7 @@
           <li>Support tag/category filter matching in subscription results</li>
           <li>Added country chat sub-tab in Peer views</li>
           <li>Added option to remember response to "add separate download" prompt</li>
-          <li>CTRL+a -> select all in progress report window</li>
+          <li>CTRL+a -&gt; select all in progress report window</li>
           <li>Added "Close View" file menu item in sidebar view</li>
           <li>Support additional launch helper for "show file" operation</li>
           <li>Added option to control side bar double-click pop-out type</li>
