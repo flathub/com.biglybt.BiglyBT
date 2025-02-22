@@ -10,7 +10,6 @@
       We provide migration tools for several popular bittorent clients. Switching to BiglyBT from projects using the same source is simple and requires no interactions beyond the initial migration approval. Your settings, downloads, and plugins will all be there and ready to use.
     </p>
   </description>
-
   <url type="homepage">https://www.biglybt.com</url>
   <launchable type="desktop-id">com.biglybt.BiglyBT.desktop</launchable>
   <update_contact>info@biglybt.com</update_contact>
@@ -19,7 +18,6 @@
   <url type="bugtracker">https://github.com/BiglySoftware/BiglyBT/issues</url>
   <url type="donation">https://www.biglybt.com/donation/donate.php</url>
   <url type="help">https://github.com/BiglySoftware/BiglyBT/wiki</url>
-
   <screenshots>
     <screenshot type="default">
       <caption>Main window</caption>
@@ -58,10 +56,45 @@
       <image>https://www.biglybt.com/img/ss/ColoredLibrary.png</image>
     </screenshot>
   </screenshots>
-
   <releases>
     <release version="v3.8.0.0" date="2025-02-18">
-      <description></description>
+      <url type="details">https://www.tumblr.com/biglybt/775809250750496768/38-release</url>
+      <description>
+        <ul>
+          <li>Added Tag constraint function "isFriendFP()"</li>
+          <li>Enable filtering in Tags discoveries</li>
+          <li>Added download/upload rate limits to simple-api plugin</li>
+          <li>Improve RSS feed entity fudger</li>
+          <li>Added option to put DND data in different folder</li>
+          <li>Added timed rotation option to increase minimum seeding time via SP ratio</li>
+          <li>Added option to not add new download if previously completed</li>
+          <li>Added torrent version option to share config</li>
+          <li>Added option to pause downloads during backups</li>
+          <li>Increase MOC recent location limit</li>
+          <li>Add search results name tooltip for subscription hits</li>
+          <li>Support dynamically constructed table cell content</li>
+          <li>Support multi-column sub-row sort</li>
+          <li>Added last update, next update and error tooltip to subscription header</li>
+          <li>Support multi-downloads in peers sub-tab</li>
+          <li>Double click middle mouse button to pop-out sidebar entry</li>
+          <li>Added row-details viewer</li>
+          <li>Added date-added column to my-shares</li>
+          <li>Added "pause" toolbar icon</li>
+          <li>Remember FilesView filters</li>
+          <li>Some people like their files indexed from 1. Visual option only</li>
+          <li>Filter intermediate Files View nodes when no visible kids</li>
+          <li>Add search result description to site column tooltip as well</li>
+          <li>Added URL column to subscriptions; support column filters</li>
+          <li>Prompt if torrent has suspicious file name extension</li>
+          <li>Added a networks icons column to library</li>
+          <li>Added menu item to clear cached tracker peers</li>
+          <li>Added "actions" subscription column; removed view button</li>
+          <li>Added options menu to chat overview sidebar</li>
+          <li>Added edit-http-seeds to sources view</li>
+          <li>Added clear-peer-cache to sources view</li>
+          <li>Show availability value in column for uploading pieces</li>
+        </ul>
+      </description>
     </release>
     <release version="v3.7.0.0" date="2024-09-30">
       <url type="details">https://biglybt.tumblr.com/post/763064972149489664/37-release</url>
@@ -145,166 +178,166 @@
         </ul>
       </description>
     </release>
-  <release version="3.5.0.0" date="2023-11-11">
-    <url type="details">https://www.tumblr.com/biglybt/717647915720605696/35-release</url>
-    <description>
-      <ul>
-        <li>Added option to apply tag sort to library positions manually + auto</li>
-        <li>Added setTagSort Tag Constraint function and Library column</li>
-        <li>Add "full_copy_seen" Tag constraint keyword</li>
-        <li>Added support for reverse setTagSort</li>
-        <li>Added "timeToElapsed" Tag constraint function</li>
-        <li>Added +,-,/,* Tag constraint operations; Added toMiB and toGiB</li>
-        <li>Added "remaining" and toMB/toGB Tag Constraint variables/functions</li>
-        <li>Added getTagWeight constraint function to get download's weight</li>
-        <li>Added Tag weight parameter</li>
-        <li>Add "random" option to setTagSort</li>
-        <li>Added session_age constraint variable</li>
-        <li>Added Tag constraint keywords up_speed and down_speed</li>
-        <li>Added ifThenElse Tag constraint function</li>
-        <li>Added Tag a?b:c operator, rem, min and max functions</li>
-        <li>Add Tag constraint variable "my_rating" to get personal rating value</li>
-        <li>Added speed limit handler option to not pause force-start downloads</li>
-        <li>Added minimum storage controls to speed limit scheduler</li>
-        <li>Added remote-port option to proxy factory</li>
-        <li>Support explicit ports in web plugin white-lists</li>
-        <li>Extended alternative-contacts to include Tor</li>
-        <li>Extend PEX support</li>
-        <li>Added a logger view for the torrent importer</li>
-        <li>Added isExternal to plugin interface tracker torrent</li>
-        <li>Tor Proxy DHT prototype</li>
-        <li>Added peers count to all-trackers view (session only)</li>
-        <li>Add incomplete/complete text to rank item tool tip where relevant</li>
-        <li>Separate progress bar colour for light seeding</li>
-        <li>Added max-seeds and min-peers to subscription filters</li>
-        <li>Menu option to remove all routers</li>
-        <li>Added is-external column to my tracker</li>
-        <li>Ctrl+f selects filter box in chat view</li>
-        <li>Added log messages and save messages chat overview columns</li>
-        <li>Added "active requests" to All Trackers view</li>
-        <li>Added dl history add/complete/remove columns to Subscriptions</li>
-        <li>Added option to specify which side-bar tab is shown on startup</li>
-      </ul>
-    </description>
-  </release>
-  <release version="3.4.0.0" date="2023-05-17">
-    <url type="details">https://www.tumblr.com/biglybt/717647915720605696/34-release</url>
-    <description>
-      <ul>
-        <li>Added option to apply tag sort to library positions manually + auto</li>
-        <li>Added setTagSort Tag Constraint function and Library column</li>
-        <li>Add "full_copy_seen" Tag constraint keyword</li>
-        <li>Added support for reverse setTagSort</li>
-        <li>Added "timeToElapsed" Tag constraint function</li>
-        <li>Added +,-,/,* Tag constraint operations; Added toMiB and toGiB</li>
-        <li>Added "remaining" and toMB/toGB Tag Constraint variables/functions</li>
-        <li>Added getTagWeight constraint function to get download's weight</li>
-        <li>Added Tag weight parameter</li>
-        <li>Add "random" option to setTagSort</li>
-        <li>Added session_age constraint variable</li>
-        <li>Added Tag constraint keywords up_speed and down_speed</li>
-        <li>Added ifThenElse Tag constraint function</li>
-        <li>Added Tag a?b:c operator, rem, min and max functions</li>
-        <li>Add Tag constraint variable "my_rating" to get personal rating value</li>
-        <li>Added speed limit handler option to not pause force-start downloads</li>
-        <li>Added minimum storage controls to speed limit scheduler</li>
-        <li>Added remote-port option to proxy factory</li>
-        <li>Support explicit ports in web plugin white-lists</li>
-        <li>Extended alternative-contacts to include Tor</li>
-        <li>Extend PEX support</li>
-        <li>Added a logger view for the torrent importer</li>
-        <li>Added isExternal to plugin interface tracker torrent</li>
-        <li>Tor Proxy DHT prototype</li>
-        <li>Added peers count to all-trackers view (session only)</li>
-        <li>Add incomplete/complete text to rank item tool tip where relevant</li>
-        <li>Separate progress bar colour for light seeding</li>
-        <li>Added max-seeds and min-peers to subscription filters</li>
-        <li>Menu option to remove all routers</li>
-        <li>Added is-external column to my tracker</li>
-        <li>Ctrl+f selects filter box in chat view</li>
-        <li>Added log messages and save messages chat overview columns</li>
-        <li>Added "active requests" to All Trackers view</li>
-        <li>Added dl history add/complete/remove columns to Subscriptions</li>
-        <li>Added option to specify which side-bar tab is shown on startup</li>
-      </ul>
-    </description>
-  </release>
-  <release version="3.3.0.0" date="2023-02-01">
-    <url type="details">https://biglybt.tumblr.com/post/708039954192891904/33-release</url>
-    <description>
-      <ul>
-        <li>Add ability to remove auto-tag config rows</li>
-        <li>Added “isMoving()” Tag Constraint</li>
-        <li>Added option to prioritize downloads by amount remaining</li>
-        <li>Added ability to reschedule disk ops from a paused state</li>
-        <li>Use HTTP plugin proxies for RSS/search</li>
-        <li>Added option to run hybrid torrents as v2 rather than v1</li>
-        <li>Added All Trackers option to explicitly enable/disable scraping</li>
-        <li>Add Download History to metasearch providers</li>
-        <li>Support I2P proxies in the same way as Tor</li>
-        <li>Allow parameters to be supplied to manual browser command</li>
-        <li>Added “play sound” to simple api plugin</li>
-        <li>Add JVM Info log view containing cpu+mem usage</li>
-        <li>Support column filters in files view; support :&gt;, :&gt;= etc. for numerics</li>
-        <li>Add option to force dark theme on Linux for some components</li>
-        <li>Added “search for save location” option to torrent-options dialog</li>
-        <li>Added an option to save the torrent file from the torrent-options dialog</li>
-        <li>Added slow-ui log</li>
-        <li>Added cog options to torrent dialog</li>
-        <li>Added summary entry to search for location results</li>
-        <li>Persist open-torrent-options dialogs across restarts</li>
-        <li>Added “save torrent” to “more” menu in torrent options</li>
-        <li>Added option to limit active blocks shown in Blocks views</li>
-        <li>Added protocol values for subscription templates/search templates</li>
-        <li>Double-click dashboard view item title -&gt; pop out</li>
-        <li>Added column value based filtering to subscriptions view</li>
-        <li>Recover pop-out windows on restart</li>
-        <li>Allow searching by renamed columns in setup window</li>
-        <li>Dark Theme option for Windows, Java 11+ recommended</li>
-        <li>Show drag position of top/right bar “sash”</li>
-        <li>Give the option to abandon the creation of a personal share</li>
-        <li>Added upload/download history view</li>
-      </ul>
-    </description>
-  </release>
-  <release version="3.2.0.0" date="2022-10-13">
-    <url type="details">https://biglybt.tumblr.com/post/697987029846343680/32-release</url>
-    <description>
-      <ul>
-        <li>Added ‘force start’ option to tags</li>
-        <li>Added tracker_status to Tag constraint variables</li>
-        <li>Auto-skip files containing folder names if file separator in match</li>
-        <li>Added execute-on-new-result to subscriptions</li>
-        <li>Support for marking subscription results as globally read across all subscriptions</li>
-        <li>Added option to prioritise downloads based on file priorities</li>
-        <li>Added support for alternative hole punching</li>
-        <li>Option to add magnet downloads in original library position</li>
-        <li>Added ability to reset resume data to previous valid state</li>
-        <li>uTP: Support reason codes</li>
-        <li>SimpleAPI: Added support to mark subscription results read</li>
-        <li>SimpleAPI: Added method to list downloads, result in JSON</li>
-        <li>SimpleAPI: Added setdownloadfileattribute method</li>
-        <li>Added option to disable table tooltip truncation</li>
-        <li>Indicate if chat messages are ip-filtered in participant tooltip</li>
-        <li>Added protocol column to subscriptions view</li>
-        <li>Subscription menu multi-select support for update period</li>
-        <li>Added peers view upload data queued column</li>
-        <li>Added option to disable auto-restart notification</li>
-        <li>Progress column redesign [ferdnyc]</li>
-        <li>Show piece details in General View for stopped downloads</li>
-        <li>Add help to “search for existing files”; expand search for relocate</li>
-        <li>Added copy-to-clip menu for URLs</li>
-        <li>Added torrent-count column to All Trackers view</li>
-        <li>Added 'next update’ subscription view column</li>
-        <li>Make middle mouse button click assign tag on library tag button</li>
-        <li>Added “File Priorities” Library column</li>
-        <li>Add support for plugins to add subscription results menu items</li>
-        <li>Added filter to all-peers view with column filter support</li>
-        <li>Added “show threads” to Help-&gt;Advanced menu</li>
-        <li>Basic “counters” view</li>
-      </ul>
-    </description>
-  </release>
+    <release version="3.5.0.0" date="2023-11-11">
+      <url type="details">https://www.tumblr.com/biglybt/717647915720605696/35-release</url>
+      <description>
+        <ul>
+          <li>Added option to apply tag sort to library positions manually + auto</li>
+          <li>Added setTagSort Tag Constraint function and Library column</li>
+          <li>Add "full_copy_seen" Tag constraint keyword</li>
+          <li>Added support for reverse setTagSort</li>
+          <li>Added "timeToElapsed" Tag constraint function</li>
+          <li>Added +,-,/,* Tag constraint operations; Added toMiB and toGiB</li>
+          <li>Added "remaining" and toMB/toGB Tag Constraint variables/functions</li>
+          <li>Added getTagWeight constraint function to get download's weight</li>
+          <li>Added Tag weight parameter</li>
+          <li>Add "random" option to setTagSort</li>
+          <li>Added session_age constraint variable</li>
+          <li>Added Tag constraint keywords up_speed and down_speed</li>
+          <li>Added ifThenElse Tag constraint function</li>
+          <li>Added Tag a?b:c operator, rem, min and max functions</li>
+          <li>Add Tag constraint variable "my_rating" to get personal rating value</li>
+          <li>Added speed limit handler option to not pause force-start downloads</li>
+          <li>Added minimum storage controls to speed limit scheduler</li>
+          <li>Added remote-port option to proxy factory</li>
+          <li>Support explicit ports in web plugin white-lists</li>
+          <li>Extended alternative-contacts to include Tor</li>
+          <li>Extend PEX support</li>
+          <li>Added a logger view for the torrent importer</li>
+          <li>Added isExternal to plugin interface tracker torrent</li>
+          <li>Tor Proxy DHT prototype</li>
+          <li>Added peers count to all-trackers view (session only)</li>
+          <li>Add incomplete/complete text to rank item tool tip where relevant</li>
+          <li>Separate progress bar colour for light seeding</li>
+          <li>Added max-seeds and min-peers to subscription filters</li>
+          <li>Menu option to remove all routers</li>
+          <li>Added is-external column to my tracker</li>
+          <li>Ctrl+f selects filter box in chat view</li>
+          <li>Added log messages and save messages chat overview columns</li>
+          <li>Added "active requests" to All Trackers view</li>
+          <li>Added dl history add/complete/remove columns to Subscriptions</li>
+          <li>Added option to specify which side-bar tab is shown on startup</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.4.0.0" date="2023-05-17">
+      <url type="details">https://www.tumblr.com/biglybt/717647915720605696/34-release</url>
+      <description>
+        <ul>
+          <li>Added option to apply tag sort to library positions manually + auto</li>
+          <li>Added setTagSort Tag Constraint function and Library column</li>
+          <li>Add "full_copy_seen" Tag constraint keyword</li>
+          <li>Added support for reverse setTagSort</li>
+          <li>Added "timeToElapsed" Tag constraint function</li>
+          <li>Added +,-,/,* Tag constraint operations; Added toMiB and toGiB</li>
+          <li>Added "remaining" and toMB/toGB Tag Constraint variables/functions</li>
+          <li>Added getTagWeight constraint function to get download's weight</li>
+          <li>Added Tag weight parameter</li>
+          <li>Add "random" option to setTagSort</li>
+          <li>Added session_age constraint variable</li>
+          <li>Added Tag constraint keywords up_speed and down_speed</li>
+          <li>Added ifThenElse Tag constraint function</li>
+          <li>Added Tag a?b:c operator, rem, min and max functions</li>
+          <li>Add Tag constraint variable "my_rating" to get personal rating value</li>
+          <li>Added speed limit handler option to not pause force-start downloads</li>
+          <li>Added minimum storage controls to speed limit scheduler</li>
+          <li>Added remote-port option to proxy factory</li>
+          <li>Support explicit ports in web plugin white-lists</li>
+          <li>Extended alternative-contacts to include Tor</li>
+          <li>Extend PEX support</li>
+          <li>Added a logger view for the torrent importer</li>
+          <li>Added isExternal to plugin interface tracker torrent</li>
+          <li>Tor Proxy DHT prototype</li>
+          <li>Added peers count to all-trackers view (session only)</li>
+          <li>Add incomplete/complete text to rank item tool tip where relevant</li>
+          <li>Separate progress bar colour for light seeding</li>
+          <li>Added max-seeds and min-peers to subscription filters</li>
+          <li>Menu option to remove all routers</li>
+          <li>Added is-external column to my tracker</li>
+          <li>Ctrl+f selects filter box in chat view</li>
+          <li>Added log messages and save messages chat overview columns</li>
+          <li>Added "active requests" to All Trackers view</li>
+          <li>Added dl history add/complete/remove columns to Subscriptions</li>
+          <li>Added option to specify which side-bar tab is shown on startup</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.0.0" date="2023-02-01">
+      <url type="details">https://biglybt.tumblr.com/post/708039954192891904/33-release</url>
+      <description>
+        <ul>
+          <li>Add ability to remove auto-tag config rows</li>
+          <li>Added “isMoving()” Tag Constraint</li>
+          <li>Added option to prioritize downloads by amount remaining</li>
+          <li>Added ability to reschedule disk ops from a paused state</li>
+          <li>Use HTTP plugin proxies for RSS/search</li>
+          <li>Added option to run hybrid torrents as v2 rather than v1</li>
+          <li>Added All Trackers option to explicitly enable/disable scraping</li>
+          <li>Add Download History to metasearch providers</li>
+          <li>Support I2P proxies in the same way as Tor</li>
+          <li>Allow parameters to be supplied to manual browser command</li>
+          <li>Added “play sound” to simple api plugin</li>
+          <li>Add JVM Info log view containing cpu+mem usage</li>
+          <li>Support column filters in files view; support :&gt;, :&gt;= etc. for numerics</li>
+          <li>Add option to force dark theme on Linux for some components</li>
+          <li>Added “search for save location” option to torrent-options dialog</li>
+          <li>Added an option to save the torrent file from the torrent-options dialog</li>
+          <li>Added slow-ui log</li>
+          <li>Added cog options to torrent dialog</li>
+          <li>Added summary entry to search for location results</li>
+          <li>Persist open-torrent-options dialogs across restarts</li>
+          <li>Added “save torrent” to “more” menu in torrent options</li>
+          <li>Added option to limit active blocks shown in Blocks views</li>
+          <li>Added protocol values for subscription templates/search templates</li>
+          <li>Double-click dashboard view item title -&gt; pop out</li>
+          <li>Added column value based filtering to subscriptions view</li>
+          <li>Recover pop-out windows on restart</li>
+          <li>Allow searching by renamed columns in setup window</li>
+          <li>Dark Theme option for Windows, Java 11+ recommended</li>
+          <li>Show drag position of top/right bar “sash”</li>
+          <li>Give the option to abandon the creation of a personal share</li>
+          <li>Added upload/download history view</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.0.0" date="2022-10-13">
+      <url type="details">https://biglybt.tumblr.com/post/697987029846343680/32-release</url>
+      <description>
+        <ul>
+          <li>Added ‘force start’ option to tags</li>
+          <li>Added tracker_status to Tag constraint variables</li>
+          <li>Auto-skip files containing folder names if file separator in match</li>
+          <li>Added execute-on-new-result to subscriptions</li>
+          <li>Support for marking subscription results as globally read across all subscriptions</li>
+          <li>Added option to prioritise downloads based on file priorities</li>
+          <li>Added support for alternative hole punching</li>
+          <li>Option to add magnet downloads in original library position</li>
+          <li>Added ability to reset resume data to previous valid state</li>
+          <li>uTP: Support reason codes</li>
+          <li>SimpleAPI: Added support to mark subscription results read</li>
+          <li>SimpleAPI: Added method to list downloads, result in JSON</li>
+          <li>SimpleAPI: Added setdownloadfileattribute method</li>
+          <li>Added option to disable table tooltip truncation</li>
+          <li>Indicate if chat messages are ip-filtered in participant tooltip</li>
+          <li>Added protocol column to subscriptions view</li>
+          <li>Subscription menu multi-select support for update period</li>
+          <li>Added peers view upload data queued column</li>
+          <li>Added option to disable auto-restart notification</li>
+          <li>Progress column redesign [ferdnyc]</li>
+          <li>Show piece details in General View for stopped downloads</li>
+          <li>Add help to “search for existing files”; expand search for relocate</li>
+          <li>Added copy-to-clip menu for URLs</li>
+          <li>Added torrent-count column to All Trackers view</li>
+          <li>Added 'next update’ subscription view column</li>
+          <li>Make middle mouse button click assign tag on library tag button</li>
+          <li>Added “File Priorities” Library column</li>
+          <li>Add support for plugins to add subscription results menu items</li>
+          <li>Added filter to all-peers view with column filter support</li>
+          <li>Added “show threads” to Help-&gt;Advanced menu</li>
+          <li>Basic “counters” view</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.0.0" date="2022-07-05">
       <url type="details">https://biglybt.tumblr.com/post/689032792822185984/31-released</url>
       <description>
