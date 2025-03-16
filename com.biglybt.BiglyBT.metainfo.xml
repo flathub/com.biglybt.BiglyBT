@@ -57,6 +57,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v3.8.0.2" date="2025-03-13">
+      <url type="details">https://www.tumblr.com/biglybt/777626018071658496/3802-release</url>
+      <description>
+        <ul>
+          <li>Fix bug preventing multiple downloads being moved at once</li>
+          <li>Added Peer Set execute-on-assign option to ban peers</li>
+          <li>Added filter box to chat overview</li>
+          <li>Add explicit banning option to IP filter window</li>
+        </ul>
+      </description>
+    </release>
     <release version="v3.8.0.0" date="2025-02-18">
       <url type="details">https://www.tumblr.com/biglybt/775809250750496768/38-release</url>
       <description>
