@@ -39,15 +39,15 @@ modules:
       no-debuginfo: true
     sources:
       - type: archive
-        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.8.0.0/GitHub_BiglyBT_unix.tar.gz
-        sha256: ef08fe52853d45650c4388ab712a113ac6995ae3e0f7ebb1818190759f38d72d
+        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.8.0.2/GitHub_BiglyBT_unix_3_8_0_2.tar.gz
+        sha256: 7049a735ae6d55474c5e60e2cb9d36e93a9e286114ab09cb1566e39e228f790d
         dest: biglybt
         x-checker-data:
           type: json
           url: https://api.github.com/repos/BiglySoftware/BiglyBT/releases/latest
           version-query: .tag_name
           timestamp-query: .published_at
-          url-query: .assets[] | select(.name=="GitHub_BiglyBT_unix.tar.gz") | .browser_download_url
+          url-query: .assets[] | select(.name|endswith(".tar.gz")) | .browser_download_url
       - type: file
         path: com.biglybt.BiglyBT.metainfo.xml
       - type: file
