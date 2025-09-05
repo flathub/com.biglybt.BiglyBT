@@ -57,6 +57,21 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v3.9.0.0" date="2025-09-03">
+      <url type="details">https://www.tumblr.com/biglybt/793672994980577280/39-release</url>
+      <description>
+        <ul>
+          <li>Added timer option to shutdown BiglyBT</li>
+          <li>Support the disabling of Tor/I2P web plugin addresses</li>
+          <li>Show existing detected "file systems" in file performance options</li>
+          <li>Added expansion indicator when supported by font</li>
+          <li>Right-click drag in tables to multi-select</li>
+          <li>Show move-on-complete dir in expand bar text</li>
+          <li>Few additional command line options</li>
+          <li>Add support for .alt TLD</li>
+        </ul>
+      </description>
+    </release>
     <release version="v3.8.0.2" date="2025-03-13">
       <url type="details">https://www.tumblr.com/biglybt/777626018071658496/3802-release</url>
       <description>
