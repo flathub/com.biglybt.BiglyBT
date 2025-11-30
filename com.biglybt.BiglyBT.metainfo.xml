@@ -437,4 +437,9 @@
       </description>
     </release>
   </releases>
+  <keywords>
+    <keyword>torrent client</keyword>
+    <keyword>bittorrent download</keyword>
+    <keyword>p2p file sharing</keyword>
+  </keywords>
 </component>
