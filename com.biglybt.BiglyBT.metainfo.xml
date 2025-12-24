@@ -58,7 +58,48 @@
   </screenshots>
   <releases>
     <release version="v4.0.0.0" date="2025-12-19">
-      <description></description>
+      <url type="details">https://www.tumblr.com/biglybt/803358114966568960/40-release</url>
+      <description>
+        <ul>
+          <li>Added restart, shutdown and update methods to simple-api plugin [Parg]</li>
+          <li>Added minimum seeding time when actively uploading [Parg]</li>
+          <li>Enable multiple read/write processors [Parg]</li>
+          <li>Support IPv6 for alternative lookups [Parg]</li>
+          <li>Ignore tag execute-on-assign for magnet downloads [Parg]</li>
+          <li>Double UDP timeouts for non-public networks [Parg]</li>
+          <li>Prevent selection of superceded UDP tracker V1 protocol [Parg]</li>
+          <li>Reduce wait time when peeking public IP address [Parg]</li>
+          <li>Add queue reason to download state debug [Parg]</li>
+          <li>Increase UDP send/recv socket buffers [Parg]</li>
+          <li>Increase default concurrent outbound connections [Parg]</li>
+          <li>Switch to transport based processor partitioning [Parg]</li>
+          <li>Switch global up/limits+rates from int to long [Parg]</li>
+          <li>Switch some ints to longs for byte bucket management [Parg]</li>
+          <li>Increase max requests per peer [Parg]</li>
+          <li>Switch to non-blocking IO for multicast [Parg]</li>
+          <li>Trying out virtual threads when available [Parg]</li>
+          <li>Free up timer thread when inactive [Parg]</li>
+          <li>Don't save file priorities when none are set [Parg]</li>
+          <li>Tweak colour of links in Windows dark mode [Parg]</li>
+          <li>Improve the speed selector menu + status bar for large values [Parg]</li>
+          <li>Added IPv6 inbound testing for netstatus [Parg]</li>
+          <li>pt_BR: Brazilian Portuguese translation update [Havokdan]</li>
+          <li>ru_RU: Russian translation update [adem4ik]</li>
+          <li>sl_SI: Slovenian translation update [upwinxp]</li>
+          <li>tr_TR: Turkish translation update [BouRock]</li>
+          <li>Fix deadlock in tag listener handling [Parg]</li>
+          <li>Fix inability to set networks on a magnet download from a Tag assignment [Parg]</li>
+          <li>Fix synchronization in tracker server [Parg]</li>
+          <li>Ignore invalid peer addresses [Parg]</li>
+          <li>Improve catching of timeout exceptions [Parg]</li>
+          <li>Ignore case of Authorization header [Parg]</li>
+          <li>Fixup probe control [Parg]</li>
+          <li>Reduce blocking in UPnP controller [Parg]</li>
+          <li>Handle lack of configured ip filters better [Parg]</li>
+          <li>Use filestore names as file roots in open-torrent-options when not Windows [Parg]</li>
+          <li>Fix slide-shell button text in dark mode [Parg]</li>
+        </ul>
+      </description>
     </release>
     <release version="v3.9.0.0" date="2025-09-03">
       <url type="details">https://www.tumblr.com/biglybt/793672994980577280/39-release</url>

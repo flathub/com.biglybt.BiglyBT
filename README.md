@@ -6,7 +6,7 @@ Flatpak for BiglyBT (https://www.biglybt.com/)
 - `flatpak`, `flatpak-builder` packages
 - Runtime `org.freedesktop.Platform` version `25.08`
 - Runtime `org.freedesktop.Sdk`
-- Runtime Extension `org.freedesktop.Sdk.Extension.openjdk11`
+- Runtime Extension `org.freedesktop.Sdk.Extension.openjdk21`
 
 ## Method 1:
 
