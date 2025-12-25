@@ -1,6 +1,6 @@
 app-id: com.biglybt.BiglyBT
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk21
@@ -39,8 +39,8 @@ modules:
       no-debuginfo: true
     sources:
       - type: archive
-        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v3.9.0.0/Github_BiglyBT_unix.tar.gz
-        sha256: 3415c46397f69153e8662b7b1b2e2b33ad5bc1049d5e8be0d20511ba4871249e
+        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v4.0.0.0/GitHub_BiglyBT_unix.tar.gz
+        sha256: 27ad40807f569e452e9ea5ac60a53f8721f9ebd4286c9aa1f4cde5069c427009
         dest: biglybt
         x-checker-data:
           type: json
