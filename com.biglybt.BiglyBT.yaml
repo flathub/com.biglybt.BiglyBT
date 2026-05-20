@@ -39,8 +39,8 @@ modules:
       no-debuginfo: true
     sources:
       - type: archive
-        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v4.0.0.0/GitHub_BiglyBT_unix.tar.gz
-        sha256: 27ad40807f569e452e9ea5ac60a53f8721f9ebd4286c9aa1f4cde5069c427009
+        url: https://github.com/BiglySoftware/BiglyBT/releases/download/v4.1.0.0/GitHub_BiglyBT_unix.tar.gz
+        sha256: 3fd0ac70a00d65465de3db4f7a54fc7d955569fe4fe422a7ab97806c4ec7e9e5
         dest: biglybt
         x-checker-data:
           type: json
