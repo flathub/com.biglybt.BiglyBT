@@ -58,7 +58,30 @@
   </screenshots>
   <releases>
     <release version="v4.1.0.0" date="2026-05-20">
-      <description></description>
+    <url type="details">https://www.tumblr.com/biglybt/817132575194857472/41-released</url>
+      <description>
+        <ul>
+            <li>Improved upload performance</li>
+            <li>Allow complex argument to Tag constraint xToS functions</li>
+            <li>Added “renameDownload” method to the simple-api plugin</li>
+            <li>Added option to not set sparse files logical size to required size</li>
+            <li>Partition insufficient space/missing file restarts by file store</li>
+            <li>Allow magnets to be added stopped; save run state and position</li>
+            <li>Added an option to ignore non-global IPv6 addresses when global present</li>
+            <li>Added option to ignore IPv6 temporary/privacy addresses (default true)</li>
+            <li>Added an option to switch files to high priority based on %age done</li>
+            <li>Added column filtering to all-trackers view</li>
+            <li>Independent, minimizable torrent options when multi-torrent enabled</li>
+            <li>Add current IP info as status bar option</li>
+            <li>Added torrent hash+hash v2 to torrents view</li>
+            <li>Added option to hide pad files</li>
+            <li>Added column header menu to set colours</li>
+            <li>Added column header menu to set alignment</li>
+            <li>Added remaining (bytes) column to files view</li>
+            <li>Added “show t e” to CLI to show error downloads</li>
+            <li>Added “apply tag sort” menu item to Tag context menu under Properties</li>
+        </ul>
+      </description>
     </release>
     <release version="v4.0.0.0" date="2025-12-19">
       <url type="details">https://www.tumblr.com/biglybt/803358114966568960/40-release</url>
